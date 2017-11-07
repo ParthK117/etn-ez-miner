@@ -1,5 +1,6 @@
 # Electroneum Easy CPU &amp; GPU Miner
 Binary Downloads:
+https://github.com/ParthK117/etn-ez-miner/releases/tag/v0.1.0
 
 This is a super easy to use electroneum miner front end that is better than the official beginner miner in that it allows you to mine from a variety of different pools and custom pools, as well as allowing for more configurations.
 
@@ -20,4 +21,6 @@ Has a built in helpdesk if you are having trouble.
 Easily check your earned ETN at the click of a button.
 
 To Compile Source:
+Simply download the source code, open the .sln with preserving the file hierarchy with your favourite Visual Studio IDE that's 2010+ and publish/debug!
 
+The source files do not contain the miners and thus will not have any antivirus popups or issues.
