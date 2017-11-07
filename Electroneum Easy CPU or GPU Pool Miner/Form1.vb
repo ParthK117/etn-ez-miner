@@ -296,7 +296,7 @@
         If pool.SelectedItem = pool.Items(9) Then
             status.Text = status.Text & vbNewLine & "   INFO: Cannot check ETN of custom pool directly from miner, go to their website."
         Else
-            Dim webAddress As String = pool_url
+            Dim webAddress As String = "http://" & pool_url
             Process.Start(webAddress)
         End If
     End Sub

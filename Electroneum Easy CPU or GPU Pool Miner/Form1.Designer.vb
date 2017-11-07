@@ -315,7 +315,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Electroneum Easy CPU or GPU Pool Miner (v0.1.0)"
+        Me.Text = "Electroneum Easy CPU or GPU Pool Miner (v0.1.1)"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
