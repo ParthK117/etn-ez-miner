@@ -1,5 +1,5 @@
-# etn-ez-miner
-Electroneum Easy CPU &amp; GPU Miner
+# Electroneum Easy CPU &amp; GPU Miner
+Binary Downloads:
 
 This is a super easy to use electroneum miner front end that is better than the official beginner miner in that it allows you to mine from a variety of different pools and custom pools, as well as allowing for more configurations.
 
@@ -18,8 +18,6 @@ Saves your last configuration as .bat and .config files if you want to launch th
 Let’s you pick a custom pool.
 Has a built in helpdesk if you are having trouble.
 Easily check your earned ETN at the click of a button.
-
-Binary Downloads:
 
 To Compile Source:
 
