@@ -10,15 +10,15 @@ To use it, just start ‘Electroneum Easy CPU or GPU Miner.exe’ from your zip 
 
 Features:
 
-Supports 5 miners out of the box with no configuration necessary.
-Allows more config than the beginner miner.
-Tells you a pool’s minimum payout and fees within the miner.
-Notifies you of any errors in your config and tries to correct them.
-Auto-tune feature that automatically tunes and fixes your configuration.
-Saves your last configuration as .bat and .config files if you want to launch the miners directly.
-Let’s you pick a custom pool.
-Has a built in helpdesk if you are having trouble.
-Easily check your earned ETN at the click of a button.
+* Supports 5 miners out of the box with no configuration necessary.
+* Allows more config than the beginner miner.
+* Tells you a pool’s minimum payout and fees within the miner.
+* Notifies you of any errors in your config and tries to correct them.
+* Auto-tune feature that automatically tunes and fixes your configuration.
+* Saves your last configuration as .bat and .config files if you want to launch the miners directly.
+* Let’s you pick a custom pool.
+* Has a built in helpdesk if you are having trouble.
+* Easily check your earned ETN at the click of a button.
 
 To Compile Source:
 Simply download the source code, open the .sln with preserving the file hierarchy with your favourite Visual Studio IDE that's 2010+ and publish/debug!
