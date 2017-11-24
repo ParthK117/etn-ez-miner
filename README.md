@@ -6,7 +6,7 @@ This is a super easy to use electroneum miner front end that is better than the 
 
 It is also better than a command-line only miner or pre-configured miner in that it has automatic error correction, directly reports pool fees and payouts within the miner window, and does not force you to use a specific miner or pool.
 
-To use it, just start ‘Electroneum Easy CPU or GPU Miner.exe’ from your zip folder, extract it all, enter your address and start mining!
+To use it, just start ‘Electroneum Ez CPU GPU Miner.exe’ from your zip folder, extract it all, enter your address and start mining!
 
 Features:
 
@@ -19,6 +19,10 @@ Features:
 * Let’s you pick a custom pool.
 * Has a built in helpdesk if you are having trouble.
 * Easily check your earned ETN at the click of a button.
+* Run multiple miners at once and manage them from just one window!
+* Save and load different configurations for different gpus or pools. no need to re-enter info!
+* OPTIONAL Automatic updating notifications, so you don't need to keep checking for new updates here.
+* Add your own custom pools to the drop down list so you don't have to re-enter them every time.
 
 To Compile Source:
 Simply download the source code, open the .sln with preserving the file hierarchy with your favourite Visual Studio IDE that's 2010+ and publish/debug!
