@@ -1,0 +1,10 @@
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\bin\Debug\Electroneum Ez CPU GPU Pool Miner with Wallet.exe
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\bin\Debug\Electroneum Ez CPU GPU Pool Miner with Wallet.pdb
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\bin\Debug\Electroneum Ez CPU GPU Pool Miner with Wallet.xml
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\obj\Debug\Electroneum Ez CPU GPU Pool Miner with Wallet.vbprojResolveAssemblyReference.cache
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\obj\Debug\Electroneum Ez CPU GPU Pool Miner with Wallet.vbproj.GenerateResource.Cache
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\obj\Debug\Electroneum Ez CPU GPU Pool Miner with Wallet.exe
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\obj\Debug\Electroneum Ez CPU GPU Pool Miner with Wallet.xml
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\obj\Debug\Electroneum Ez CPU GPU Pool Miner with Wallet.pdb
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\obj\Debug\Electroneum_Ez_CPU_GPU_Pool_Miner_with_Wallet.Form1.resources
+C:\Users\Parthu\documents\visual studio 2015\Projects\Electroneum Easy CPU or GPU Pool Miner\Electroneum Easy CPU or GPU Pool Miner\obj\Debug\Electroneum_Ez_CPU_GPU_Pool_Miner_with_Wallet.Resources.resources
