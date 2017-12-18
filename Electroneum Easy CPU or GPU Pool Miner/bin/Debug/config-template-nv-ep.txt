@@ -1,4 +1,4 @@
-﻿     "gpu_threads_conf" : [ 
+     "gpu_threads_conf" : [ 
        { "index" : 0,"threads" : 46, "blocks" : 36,"bfactor" : 6, "bsleep" :  25,"affine_to_cpu" : false,},
 	   { "index" : 1,"threads" : 46, "blocks" : 36,"bfactor" : 6, "bsleep" :  25,"affine_to_cpu" : false,},
        { "index" : 2,"threads" : 46, "blocks" : 36,"bfactor" : 6, "bsleep" :  25,"affine_to_cpu" : false,},
@@ -20,8 +20,8 @@
      "use_tls" : false,
      "tls_secure_algo" : true,
      "tls_fingerprint" : "",
-     "pool_address" : "us-etn-pool.hashparty.io:5555",
-     "wallet_address" : "etnkAjckxKuQ2ov3QVmJRWJserxDuFpQJNKud22TN79PhJFtmd7FtDLLGpyErzEWM47W7JVsbXeVfTgmuUPsUAaX81rdJrMtJw",
+     "pool_address" : "address_replace",
+     "wallet_address" : "wallet_replace",
      "pool_password" : "x",
      "call_timeout" : 10,
      "retry_time" : 10,

@@ -48,6 +48,7 @@ Partial Class Form1
         Me.new_miner = New System.Windows.Forms.Button()
         Me.donate = New System.Windows.Forms.Button()
         Me.tab_as = New System.Windows.Forms.TabPage()
+        Me.update_lbl = New System.Windows.Forms.Label()
         Me.hyperthread = New System.Windows.Forms.CheckBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -65,7 +66,6 @@ Partial Class Form1
         Me.title_lbl = New System.Windows.Forms.Label()
         Me.save_config_dialog = New System.Windows.Forms.SaveFileDialog()
         Me.open_config_dialog = New System.Windows.Forms.OpenFileDialog()
-        Me.update_lbl = New System.Windows.Forms.Label()
         Me.Tab_controller.SuspendLayout()
         Me.tab_miner.SuspendLayout()
         Me.tab_as.SuspendLayout()
@@ -345,6 +345,15 @@ Partial Class Form1
         Me.tab_as.Text = "Advanced Settings"
         Me.tab_as.UseVisualStyleBackColor = True
         '
+        'update_lbl
+        '
+        Me.update_lbl.AutoSize = True
+        Me.update_lbl.Location = New System.Drawing.Point(194, 25)
+        Me.update_lbl.Name = "update_lbl"
+        Me.update_lbl.Size = New System.Drawing.Size(127, 17)
+        Me.update_lbl.TabIndex = 44
+        Me.update_lbl.Text = "UPDATE_STATUS"
+        '
         'hyperthread
         '
         Me.hyperthread.AutoSize = True
@@ -399,7 +408,7 @@ Partial Class Form1
         '
         Me.xmr_stak_perf_box.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.xmr_stak_perf_box.FormattingEnabled = True
-        Me.xmr_stak_perf_box.Items.AddRange(New Object() {"Standard", "High"})
+        Me.xmr_stak_perf_box.Items.AddRange(New Object() {"Standard", "High", "Extreme"})
         Me.xmr_stak_perf_box.Location = New System.Drawing.Point(195, 184)
         Me.xmr_stak_perf_box.Name = "xmr_stak_perf_box"
         Me.xmr_stak_perf_box.Size = New System.Drawing.Size(138, 24)
@@ -496,15 +505,6 @@ Partial Class Form1
         '
         Me.open_config_dialog.FileName = "File name"
         '
-        'update_lbl
-        '
-        Me.update_lbl.AutoSize = True
-        Me.update_lbl.Location = New System.Drawing.Point(194, 25)
-        Me.update_lbl.Name = "update_lbl"
-        Me.update_lbl.Size = New System.Drawing.Size(127, 17)
-        Me.update_lbl.TabIndex = 44
-        Me.update_lbl.Text = "UPDATE_STATUS"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -515,6 +515,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Tab_controller)
         Me.ForeColor = System.Drawing.Color.Black
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"

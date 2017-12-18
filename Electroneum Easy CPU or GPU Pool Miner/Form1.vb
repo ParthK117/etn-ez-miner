@@ -50,6 +50,10 @@ Public Class Form1
             wallet_address.Text = "etnkAjckxKuQ2ov3QVmJRWJserxDuFpQJNKud22TN79PhJFtmd7FtDLLGpyErzEWM47W7JVsbXeVfTgmuUPsUAaX81rdJrMtJw"
             status.Text = status.Text & vbNewLine & ">Developer wallet address selected! Make sure you know this before you mine!"
         End If
+        If wallet_address.Text = "" Then
+            wallet_address.Text = "etnkAjckxKuQ2ov3QVmJRWJserxDuFpQJNKud22TN79PhJFtmd7FtDLLGpyErzEWM47W7JVsbXeVfTgmuUPsUAaX81rdJrMtJw"
+            status.Text = status.Text & vbNewLine & ">Developer wallet address selected! Make sure you know this before you mine! REASON: WALLET TEXTBOX EMPTY"
+        End If
         If pool.SelectedItem = pool.Items(9) Then
             pool_url = (custom_pool.Text)
         End If
@@ -152,6 +156,33 @@ Public Class Form1
                     System.IO.File.Create(FILE_NAME_NV).Dispose()
                 End If
                 System.IO.File.Copy("config-template-nv-hp.txt", "config.txt", True)
+                'This can done way better but i can't be assed
+                Dim fileReader As String = My.Computer.FileSystem.ReadAllText("config.txt").Replace("threads_replace", threads.Text)
+                fileReader = fileReader.Replace("address_replace", pool_url & ":" & port.Text)
+                fileReader = fileReader.Replace("wallet_replace", wallet_address.Text)
+                Dim index As Integer = threads.Text
+                While index <= 15
+                    fileReader = fileReader.Replace("{ ""index"" : " & index & ",""threads"" : 32, ""blocks"" : 27,""bfactor"" : 6, ""bsleep"" :  25,""affine_to_cpu"" : false,},", "")
+                    index += 1
+                End While
+                My.Computer.FileSystem.WriteAllText("config.txt", fileReader, False)
+                System.Diagnostics.Process.Start("xmr-stak-nvidia.exe")
+                Dim minerstring As String = (globalindex & "    |    " & wallet_address.Text.Substring(0, 40) & "   |   " & miner_type.SelectedItem & "   |   " & pool_url)
+                open_miners.Items.Add(minerstring)
+                globalindex = globalindex + 1
+                new_miner.Visible = True
+            End If
+
+            If cpuorgpu.SelectedItem = cpuorgpu.Items(1) And gpubrand.SelectedItem = gpubrand.Items(0) And miner_type.SelectedItem = miner_type.Items(0) And xmr_stak_perf_box.SelectedItem = xmr_stak_perf_box.Items(2) Then
+                'create new config file
+                Dim FILE_NAME_NV As String = "config.txt"
+                If System.IO.File.Exists(FILE_NAME_NV) = False Then
+                    System.IO.File.Create(FILE_NAME_NV).Dispose()
+                Else
+                    System.IO.File.Delete(FILE_NAME_NV)
+                    System.IO.File.Create(FILE_NAME_NV).Dispose()
+                End If
+                System.IO.File.Copy("config-template-nv-ep.txt", "config.txt", True)
                 'This can done way better but i can't be assed
                 Dim fileReader As String = My.Computer.FileSystem.ReadAllText("config.txt").Replace("threads_replace", threads.Text)
                 fileReader = fileReader.Replace("address_replace", pool_url & ":" & port.Text)
@@ -492,4 +523,5 @@ Public Class Form1
         status.Text = status.Text & vbNewLine & ">Developer wallet address selected! Make sure you know this before you mine!"
         status.Text = status.Text & vbNewLine & ">Developer wallet address selected! Make sure you know this before you mine!"
     End Sub
+
 End Class

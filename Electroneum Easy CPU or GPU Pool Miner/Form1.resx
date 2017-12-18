@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="status.Text" xml:space="preserve">
-    <value>&gt;Welcome! Electroneum Easy CPU or GPU Pool Miner (V0.2.0)
+    <value>&gt;Welcome! Electroneum Easy CPU or GPU Pool Miner (V0.2.1)
 &gt;Current cpuminer multi and ccminer by tpruvot.
 &gt;Current xmr-stak-amd and nvidia and cpu by fireice-uk
 &gt;Check for updates at https://parthk.co.uk
